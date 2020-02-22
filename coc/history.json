@@ -1,0 +1,46 @@
+{
+  "extensions": {
+    "%2Fhome%2Fvainjoker%2F": {
+      "config%2Fnvim": [
+        ":q",
+        "qj"
+      ]
+    },
+    "%2Fhome%2Fvainjoker": [
+      "go"
+    ],
+    "%2Fhome%2Fvainjoker%2FLearnGO": [
+      "go"
+    ]
+  },
+  "commands": {
+    "%2Fhome%2Fvainjoker%2F": {
+      "config%2Fnvim": [
+        "yank"
+      ]
+    }
+  },
+  "marketplace": {
+    "%2Fhome%2Fvainjoker%2F": {
+      "config%2Fnvim": [
+        "go",
+        "q`",
+        "tr",
+        "latex",
+        "indentqq",
+        "texlab"
+      ],
+      "config%2Fcoc": [
+        "go"
+      ]
+    },
+    "%2Fhome%2Fvainjoker": [
+      "coc-go",
+      "coc",
+      "latex`"
+    ],
+    "%2Fhome%2Fvainjoker%2Fnotes%2FSignal%20and%20System": [
+      "markdown"
+    ]
+  }
+}
