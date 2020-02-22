@@ -1,12 +1,55 @@
+/home/vainjoker/Myvim/.gitignore
+/home/vainjoker/Myvim/README.md
+/home/vainjoker/Myvim/init.vim
+/home/vainjoker/Myvim/install.sh
+/home/vainjoker/.config/nvim/init.vim
+/home/vainjoker/.xprofile
+/home/vainjoker/.vimspector.json
+/home/vainjoker/.emacs.d/init-elpa.el
+/home/vainjoker/.emacs.d/init-utils.el
+/home/vainjoker/.emacs.d/init.el
+/home/vainjoker/.wine/userdef.reg
+/home/vainjoker/.wine/user.reg
+/home/vainjoker/.wine/system.reg
+/home/vainjoker/Scripts/pvz.sh
+/home/vainjoker/Todos/toDoGo/example.go
+/home/vainjoker/Todos/toDoGo/example.tex
+/home/vainjoker/.config/coc/ultisnips/go.snippets
+/home/vainjoker/Todos/toDoGo/templates.go
+/home/vainjoker/Todos/toDoGo/hello.tmpl
+/home/vainjoker/Notes/Signal and System/class2.tex
+/home/vainjoker/a
+/home/vainjoker/.vimrc
+/home/vainjoker/.config/coc/ultisnips/tex.snippets
+/home/vainjoker/Notes/Signal and System/class1.md
+/home/vainjoker/a.log
+/home/vainjoker/1
+/home/vainjoker/shadowsocks.json
+/home/vainjoker/baidunetdiskdownload/01-工程介绍.md
+/home/vainjoker/.config/ranger/rifle.conf
+/home/vainjoker/1.md
+/home/vainjoker/st/config.h
+/home/vainjoker/dwm/config.h
+/home/vainjoker/Notes/Operating System/class1.md
+/home/vainjoker/Notes/Operating System/class1.tex
+/home/vainjoker/Notes/Operating System/class0.tex
+/home/vainjoker/Notes/.gitignore
+/home/vainjoker/Notes/Computer Network/class0.tex
+/home/vainjoker/Notes/class0.tex
+/home/vainjoker/tex/example.tex
+/home/vainjoker/.config/coc/ultisnips/example.tex
+/home/vainjoker/.config/coc/ultisnips/texmath.snippets
+/home/vainjoker/tex/1.tex
+/home/vainjoker/.config/coc/ultisnips/1.tex
+/home/vainjoker/1.tex
+/home/vainjoker/LearnGO/array0210/arry0210.go
+/home/vainjoker/.config/coc/ultisnips/1.html
+/home/vainjoker/.config/coc/ultisnips/c.snippets
+/home/vainjoker/1.html
+/home/vainjoker/tex/tex.snippets
 /home/vainjoker/Scripts/push.sh
 /home/vainjoker/Scripts/copy.sh
-/home/vainjoker/Myvim/init.vim
-/home/vainjoker/.config/coc/ultisnips/tex.snippets
-/home/vainjoker/tex/example.tex
 /home/vainjoker/example.tex
-/home/vainjoker/.config/coc/ultisnips/texmath.snippets
-/home/vainjoker/Notes/Signal and System/class1.md
-/home/vainjoker/.config/nvim/init.vim
 /home/vainjoker/.config/nvim/coc-settings.json
 /home/vainjoker/.config/coc/extensions/coc-translator-data/translation.json
 /home/vainjoker/tex/example.log
@@ -14,20 +57,15 @@
 /home/vainjoker/.vim/plugged/ale/rplugin/python3/deoplete/sources/ale.py
 /home/vainjoker/.vim/plugged/ale/rplugin/python3/deoplete/sources/
 /home/vainjoker/.config/nvim/.vimspector.json
-/home/vainjoker/.vimrc
-/home/vainjoker/1.md
 /home/vainjoker/1.ma
 /home/vainjoker/.config/coc/ultisnips/md.snippets
 /home/vainjoker/.vim/plugged/vim-copyright/plugin/copyright.vim
-/home/vainjoker/1.tex
 /home/vainjoker/tex/1.go
 /home/vainjoker/tex/1.c
 /home/vainjoker/texput.log
 /home/vainjoker/baidunetdiskdownload/06-神奇的Makefile.md
-/home/vainjoker/shadowsocks.json
 /home/vainjoker/Notes/Signal and System/class2.md
 /home/vainjoker/Notes/Signal and System/class3.md
-/home/vainjoker/baidunetdiskdownload/01-工程介绍.md
 /home/vainjoker/opesys/Makefile
 /home/vainjoker/opesys/bootsect.S
 /home/vainjoker/opesys/boot_sect_simple.asm
@@ -43,11 +81,9 @@
 /home/vainjoker/.vim/plugged/vim-surround/doc/tags
 /home/vainjoker/h vimtex
 /home/vainjoker/Todos/toDoGo/templates/posts/index.html
-/home/vainjoker/Todos/toDoGo/example.go
 /home/vainjoker/Todos/toDoGo/templates/users/index.html
 /home/vainjoker/.cache/yay/completion.cache
 /home/vainjoker/Todos/toDoGo/main.go
-/home/vainjoker/st/config.h
 /home/vainjoker/.zshrc
 /home/vainjoker/Myvim/.zshrc
 /home/vainjoker/.zsh_history
@@ -55,7 +91,6 @@
 /home/vainjoker/Myvim/coc/mru
 /home/vainjoker/Myvim/coc/memos.json
 /home/vainjoker/Myconfig/zsh/_zshrc
-/home/vainjoker/LearnGO/array0210/arry0210.go
 /home/vainjoker/leetcode/数据结构/tree/543.md
 /home/vainjoker/leetcode/数据结构/tree/617.md
 /home/vainjoker/leetcode/数据结构/tree/617.m
@@ -86,7 +121,6 @@
 /home/vainjoker/wubinan
 /home/vainjoker/LearnGO/date0209/date0209.go
 /home/vainjoker/.config/coc/coc.conf
-/home/vainjoker/.vimspector.json
 /home/vainjoker/.config/nvim/sample_vimspector_json/.vimspector.json
 /home/vainjoker/.vim/plugged/vimspector/install_gadget.py
 /home/vainjoker/.vim/plugged/vimspector/_vimspector_log_Vimspector_out
@@ -130,7 +164,6 @@
 /home/vainjoker/test.go
 /home/vainjoker/gotips.md
 /home/vainjoker/Myconfig/
-/home/vainjoker/.config/ranger/rifle.conf
 /home/vainjoker/Blog/node_modules/@types/color-name/index.d.ts
 /home/vainjoker/.config/ranger/commands.py
 /home/vainjoker/.config/ranger/rc.conf
@@ -170,7 +203,6 @@
 /home/vainjoker/Blog/public/index.html
 /home/vainjoker/Blog/_config.yml
 /etc/passwd
-/home/vainjoker/Myvim/install.sh
 /home/vainjoker/a.c
 /home/vainjoker/1.c
 /home/vainjoker/1.cpp
@@ -183,14 +215,12 @@
 /home/vainjoker/working_environment/ranger/requirement.md
 /home/vainjoker/Blog/readme.md
 /home/vainjoker/2
-/home/vainjoker/1
 /home/vainjoker/package-lock.json
 /home/vainjoker/aws.pem
 /home/vainjoker/working_environment/dwm/autostart.sh
 /home/vainjoker/toDo/uncomplete.md
 /home/vainjoker/toDo/todos.html
 /home/vainjoker/todos.html
-/home/vainjoker/1.html
 /home/vainjoker/1.ht
 /home/vainjoker/.zsh
 /home/vainjoker/vueBlog/build/webpack.dev.conf.js
@@ -249,7 +279,6 @@
 /home/vainjoker/.config/coc/ultisnips/markdown.snippets
 /home/vainjoker/.config/neofetch/config.conf
 /home/vainjoker/.config/neofetch/
-/home/vainjoker/dwm/config.h
 /home/vainjoker/dwm/dwm.c
 /home/vainjoker/dwm/config.
 /home/vainjoker/Blog/source/_posts/Arch图形及常用软件.md
@@ -264,7 +293,6 @@
 /home/vainjoker/working_environment/shadowsocks/shadowsocks.sh
 /home/vainjoker/.Xresources
 /etc/systemd/system/shadowsocks.service
-/home/vainjoker/.xprofile
 /home/vainjoker/working_environment/copy.sh
 /home/vainjoker/.vim/plugged/nvim-lsp/lua/nvim_lsp/util.lua
 /home/vainjoker/wifitest/wifitest.py
@@ -304,7 +332,6 @@
 /home/vainjoker/.vim/plugged/vim-snippets/UltiSnips/ada.snippets
 /home/vainjoker/.config/bspwm/bspwmrc
 /home/vainjoker/.config/sxhkd/sxhkdrc
-/home/vainjoker/.emacs.d/init.el
 /home/vainjoker/emacs.d/lisp/init-term-mode.el
 /home/vainjoker/working_environment/myvim/_vimrc
 /home/vainjoker/vimlog
@@ -331,4 +358,3 @@
 /home/vainjoker/.config/coc/ultisnips/vim.snippets
 /home/vainjoker/.vim/plugged/vim-snippets/UltiSnips/c.snippets
 /home/vainjoker/.vim/plugged/vim-snippets/snippets/c.snippets
-/home/vainjoker/.config/coc/ultisnips/c.snippets
