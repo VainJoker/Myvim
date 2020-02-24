@@ -1,8 +1,28 @@
+/home/vainjoker/st/config.h
+/home/vainjoker/Notes/Operating System/class1.md
+/home/vainjoker/Myconfig/YaHei-Consolas-Hybrid-1.12/install.sh
+/home/vainjoker/.vimrc
+/home/vainjoker/Notes/Operating System/class2.md
+/home/vainjoker/todolist.vim/plugin/readtodo.vim
+/home/vainjoker/todolist.vim/plugin/list.vim
+/home/vainjoker/todolist.vim/plugin/block
+/home/vainjoker/1.c
+/home/vainjoker/.config/nvim/init.vim
+/home/vainjoker/1
+/home/vainjoker/helloworld.vim
+/home/vainjoker/todolist.vim/doc/todolist.txt
+/home/vainjoker/Todos/toDoHtml/todos.html
+/home/vainjoker/.vim/plugged/rainbow/autoload/rainbow.vim
+/home/vainjoker/Todos/vue2.x-todo-tutorial/README.md
+/home/vainjoker/todolist.vim/autoload/todolist.vim
+/home/vainjoker/Notes/Signal and System/class2.tex
+/home/vainjoker/Notes/Signal and System/class3.tex
+/home/vainjoker/.config/coc/ultisnips/texmath.snippets
+/home/vainjoker/.config/coc/ultisnips/tex.snippets
 /home/vainjoker/Myvim/.gitignore
 /home/vainjoker/Myvim/README.md
 /home/vainjoker/Myvim/init.vim
 /home/vainjoker/Myvim/install.sh
-/home/vainjoker/.config/nvim/init.vim
 /home/vainjoker/.xprofile
 /home/vainjoker/.vimspector.json
 /home/vainjoker/.emacs.d/init-elpa.el
@@ -17,20 +37,14 @@
 /home/vainjoker/.config/coc/ultisnips/go.snippets
 /home/vainjoker/Todos/toDoGo/templates.go
 /home/vainjoker/Todos/toDoGo/hello.tmpl
-/home/vainjoker/Notes/Signal and System/class2.tex
 /home/vainjoker/a
-/home/vainjoker/.vimrc
-/home/vainjoker/.config/coc/ultisnips/tex.snippets
 /home/vainjoker/Notes/Signal and System/class1.md
 /home/vainjoker/a.log
-/home/vainjoker/1
 /home/vainjoker/shadowsocks.json
 /home/vainjoker/baidunetdiskdownload/01-工程介绍.md
 /home/vainjoker/.config/ranger/rifle.conf
 /home/vainjoker/1.md
-/home/vainjoker/st/config.h
 /home/vainjoker/dwm/config.h
-/home/vainjoker/Notes/Operating System/class1.md
 /home/vainjoker/Notes/Operating System/class1.tex
 /home/vainjoker/Notes/Operating System/class0.tex
 /home/vainjoker/Notes/.gitignore
@@ -38,7 +52,6 @@
 /home/vainjoker/Notes/class0.tex
 /home/vainjoker/tex/example.tex
 /home/vainjoker/.config/coc/ultisnips/example.tex
-/home/vainjoker/.config/coc/ultisnips/texmath.snippets
 /home/vainjoker/tex/1.tex
 /home/vainjoker/.config/coc/ultisnips/1.tex
 /home/vainjoker/1.tex
@@ -204,7 +217,6 @@
 /home/vainjoker/Blog/_config.yml
 /etc/passwd
 /home/vainjoker/a.c
-/home/vainjoker/1.c
 /home/vainjoker/1.cpp
 /home/vainjoker/1.py
 /home/vainjoker/1.sh
