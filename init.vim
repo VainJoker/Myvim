@@ -104,8 +104,8 @@ set pastetoggle=<F10>
 "无权限写入
 noremap <C-w> :w! sudo tee %
 "<C-hjkl>映射
-map <C-j> <NOP>
-imap <C-j> <ESC>
+map <C-l> <NOP>
+imap <C-l> <ESC>
 noremap <C-k> :w
 nnoremap <C-h> 0
 noremap <C-l> $
@@ -342,7 +342,7 @@ function! CocTimerStart(timer)
     exec "CocStart"
 endfunction
 call timer_start(500,'CocTimerStart',{'repeat':1})
-let g:coc_global_extensions = ['coc-marketplace','coc-go','coc-python','coc-vimlsp','coc-snippets','coc-emmet','coc-html','coc-json','coc-css','coc-tsserver','coc-yank','coc-lists','coc-highlight','coc-pairs','coc-ccls','coc-texlab','coc-vimtex']
+let g:coc_global_extensions = ['coc-marketplace','coc-go','coc-python','coc-vimlsp','coc-snippets','coc-emmet','coc-html','coc-json','coc-css','coc-tsserver','coc-yank','coc-lists','coc-highlight','coc-pairs','coc-texlab','coc-vimtex']
 " if hidden is not set, TextEdit might fail.
 set hidden
 " Some servers have issues with backup files, see #649
@@ -551,6 +551,9 @@ let g:indent_guides_guide_size=1
 " autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 " hi IndentGuidesOdd  guibg=red   ctermbg=3
 " hi IndentGuidesEven guibg=green ctermbg=4
+"
+
+
 
 call plug#begin('~/.vim/plugged')
 "copyright
@@ -587,7 +590,7 @@ Plug 'luochen1990/rainbow'
 "code comment
 Plug 'scrooloose/nerdcommenter'
 "version manager 
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree',{'on':'UndotreeToggle'}
 "file manager
 Plug 'scrooloose/nerdtree',{'on':'NERDTreeToggle'}

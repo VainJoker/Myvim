@@ -104,8 +104,8 @@ set pastetoggle=<F10>
 "无权限写入
 noremap <C-w> :w! sudo tee %<CR>
 "<C-hjkl>映射
-map <C-j> <NOP>
-imap <C-j> <ESC>
+map <C-l> <NOP>
+imap <C-l> <ESC>
 noremap <C-k> :w
 nnoremap <C-h> 0
 noremap <C-l> $
@@ -161,7 +161,7 @@ endif
 " autocmd BufWinLeave * mkview
 " autocmd BufWinEnter * loadview
 "设置状态栏显示的内容
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+" set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 "输入法滞留
 let g:input_toggle = 0
 function! Fcitx2en()
@@ -322,7 +322,7 @@ function! CocTimerStart(timer)
     exec "CocStart"
 endfunction
 call timer_start(500,'CocTimerStart',{'repeat':1})
-let g:coc_global_extensions = ['coc-marketplace','coc-python','coc-vimlsp','coc-snippets','coc-emmet','coc-html','coc-json','coc-css','coc-tsserver','coc-yank','coc-lists','coc-highlight','coc-pairs','coc-ccls']
+let g:coc_global_extensions = ['coc-marketplace','coc-python','coc-vimlsp','coc-snippets','coc-emmet','coc-html','coc-json','coc-css','coc-tsserver','coc-yank','coc-lists','coc-highlight','coc-pairs']
 " if hidden is not set, TextEdit might fail.
 set hidden
 " Some servers have issues with backup files, see #649
@@ -514,6 +514,23 @@ let g:vimspector_enable_mappings = 'HUMAN'
 " packadd! vimspector
 
 
+let g:HicusLineEnabled = 1
+let g:HicusLineMode = {
+\   'n':      'NORMAL',
+\   'i':      'INSERT',
+\   'R':      'REPLACE',
+\   'v':      'VISUAL',
+\   'V':      'L-VIS',
+\   "\<C-v>": 'B-VIS',
+\   'c':      'COMMAND',
+\   's':      'SELECT',
+\   'S':      'L-SEL',
+\   "\<C-s>": 'B-SEL',
+\   't':      'TERMINAL',
+\}
+
+
+
 call plug#begin('~/.vim/plugged')
 " "copyright
 Plug 'nine2/vim-copyright'
@@ -558,13 +575,15 @@ Plug '~/.fzf'
 Plug 'mhinz/vim-startify'
 "statusline
 " Plug 'vim-airline/vim-airline'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'bling/vim-bufferline'
 " colorscheme
 Plug 'morhetz/gruvbox'
 " Plug 'lifepillar/vim-solarized8'
 " Plug 'tomasr/molokai'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'SpringHan/lightTodo.vim'
+" Plug 'Styadev/HicusLine'
 call plug#end()
 
 "配色
@@ -574,3 +593,71 @@ colorscheme gruvbox
 " colorscheme solarized8_high
 
 
+function! GitInfo()
+  let git = fugitive#head()
+  if git != ''
+    return ' '.fugitive#head()
+  else
+    return '⚡'
+  endif
+endfunction
+
+" Find out current buffer's size and output it.
+function! FileSize()
+  let bytes = getfsize(expand('%:p'))
+  if (bytes >= 1024)
+    let kbytes = bytes / 1024
+  endif
+  if (exists('kbytes') && kbytes >= 1000)
+    let mbytes = kbytes / 1000
+  endif
+  if bytes <= 0
+    return '0'
+  endif
+  if (exists('mbytes'))
+    return mbytes . 'MB '
+  elseif (exists('kbytes'))
+    return kbytes . 'KB '
+  else
+    return bytes . 'B '
+  endif
+endfunction
+
+
+function! ReadOnly()
+  if &readonly || !&modifiable
+    return ''
+  else
+    return '✔'
+  endif
+endfunction
+
+
+" set statusline=
+" set statusline+=%{ReadOnly()}                            " Writeable
+" set statusline+=\ %n\           " buffer number
+" set statusline+=%#DiffAdd#%{(mode()=='n')?'\ \ NORMAL\ ':''}
+" set statusline+=%#DiffChange#%{(mode()=='i')?'\ \ INSERT\ ':''}
+" set statusline+=%#DiffDelete#%{(mode()=='r')?'\ \ RPLACE\ ':''}
+" set statusline+=%#Cursor#%{(mode()=='v')?'\ \ VISUAL\ ':''}
+" set statusline+=%#Visual#       " colour
+" set statusline+=%{&paste?'\ PASTE\ ':''}
+" set statusline+=%{&spell?'\ SPELL\ ':''}
+" set statusline+=%#CursorIM#     " colour
+" set statusline+=%R                        " readonly flag
+" set statusline+=%M                        " modified [+] flag
+" set statusline+=%#Cursor#               " colour
+" set statusline+=%#CursorLine#     " colour
+" set statusline+=%.20F
+" set statusline+=%=                          " right align
+" set statusline+=%{FileSize()}
+" set statusline+=%#CursorLine#   " colour
+" set statusline+=\ %Y\                   " file type
+" set statusline+=%{GitInfo()}                        " Git Branch name
+" set statusline+=%#CursorIM#     " colour
+" set statusline+=\ %3l:%-2c\         " line + column
+" set statusline+=%#Cursor#       " colour
+" set statusline+=\ %3p%%\                " percentage
+"
+"
+"
