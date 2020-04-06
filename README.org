@@ -1,0 +1,45 @@
+* My Neovim&&Vim Configuration
+
+** First of all , make sure that you understand every line in your vimrc when using vim 
+btw this is a small (on my computer start only need 200ms,that you can't feel it) but still powerful configuration when you editing a small file , maybe it can't perform very well in a big project or a lot of files , with poor ability to jump to a file or a definition of a function . However you can polish by yourself 
+P.S if who you are looking this , that's not mess code in the configuration it's chinese
+** Requirements
+*** must
+   - nodejs
+   - pynvim 
+   - yarn
+*** optional
+   - texlive
+   - Okular
+   - ccls
+   - gopls
+   - devel
+** Install
+   if you first use vim or nvim , make sure network is OK,then
+#+BEGIN_SRC 
+   cd ~/
+   chmod +x Myvim/install.sh
+   ./Myvim/install.sh
+#+END_SRC
+   after this run vim+PlugInstall or nvim+PlugInstall
+   make sure the floder coc is in your directory ~/.config/
+   
+   if your network is not good enough 
+   you can run the commands in that shell scripts by yourself
+ 
+** KeyBindings
+   there is just a little keybindings , so you can read the vimrc for deatail 
+   also , maybe try it can help you learn it better
+   
+** Last 
+   what you can do with this configuration 
+   - markdown (preview)
+   - latex  (snippets complete preview)
+   - golang (what vscode can do you can do here except debug with gui)
+   - python (with a little change in coc)
+   - c
+   - html
+   - css
+   - javascript (with a little change)
+    
+    
