@@ -1,6 +1,18 @@
-func
-tex
+if
+json
+for
+var
 fp
+im
+fig
+html
+joint
+shy
+tex
+sv
+gf
+go
+func
 con
 co
 new
@@ -19,8 +31,6 @@ switch
 make
 map
 sort
-if
-var
 import
 iferr
 vars
@@ -30,7 +40,6 @@ tk
 tt
 compl
 form
-html
 md
 ssub*
 ||
@@ -66,7 +75,6 @@ eqa
 al
 ac
 sssec
-for
 return
 forr
 lf
