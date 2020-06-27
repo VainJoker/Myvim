@@ -152,3 +152,5 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strf
 
 source ~/MyVim/base.vim
 source ~/MyVim/plugin.vim
+source ~/MyVim/coc.vim
+
